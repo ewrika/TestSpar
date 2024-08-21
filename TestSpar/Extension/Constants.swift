@@ -24,5 +24,7 @@ extension Font {
     static let Bold16 : Font = Font.custom("SF-Pro-Display-Bold", size: 16)
     static let ProBold20 : Font = Font.custom("TypeMates - CeraRoundPro-Bold", size: 20)
     static let ProBold16 : Font = Font.custom("TypeMates - CeraRoundPro-Bold", size: 16)
+    static let ProBold12 : Font = Font.custom("TypeMates - CeraRoundPro-Bold", size: 12)
+
 }
 

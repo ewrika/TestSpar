@@ -17,6 +17,8 @@
 		E834ECD92C7632CA00027799 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */; };
 		E834ECDE2C7647C200027799 /* CardProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECDD2C7647C200027799 /* CardProduct.swift */; };
 		E834ECE02C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */; };
+		E834ECE62C766ECF00027799 /* VertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECE52C766ECF00027799 /* VertView.swift */; };
+		E834ECEA2C766F5800027799 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECE92C766F5800027799 /* ProductsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		E834ECDA2C76343C00027799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E834ECDD2C7647C200027799 /* CardProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProduct.swift; sourceTree = "<group>"; };
 		E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TypeMates - CeraRoundPro-Bold.otf"; sourceTree = "<group>"; };
+		E834ECE52C766ECF00027799 /* VertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertView.swift; sourceTree = "<group>"; };
+		E834ECE92C766F5800027799 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		E834ECBC2C76237E00027799 /* TestSpar */ = {
 			isa = PBXGroup;
 			children = (
+				E834ECE82C766F3100027799 /* ViewModels */,
 				E834ECDA2C76343C00027799 /* Info.plist */,
 				E834ECD52C76329F00027799 /* Fonts */,
 				E834ECD22C762AE400027799 /* Extension */,
@@ -123,8 +128,17 @@
 			isa = PBXGroup;
 			children = (
 				E834ECDD2C7647C200027799 /* CardProduct.swift */,
+				E834ECE52C766ECF00027799 /* VertView.swift */,
 			);
 			path = CardGrid;
+			sourceTree = "<group>";
+		};
+		E834ECE82C766F3100027799 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECE92C766F5800027799 /* ProductsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +216,11 @@
 			files = (
 				E834ECC02C76237E00027799 /* ContentView.swift in Sources */,
 				E834ECBE2C76237E00027799 /* TestSparApp.swift in Sources */,
+				E834ECEA2C766F5800027799 /* ProductsViewModel.swift in Sources */,
 				E834ECD02C76254400027799 /* Product.swift in Sources */,
 				E834ECDE2C7647C200027799 /* CardProduct.swift in Sources */,
 				E834ECD42C762B1800027799 /* Constants.swift in Sources */,
+				E834ECE62C766ECF00027799 /* VertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
