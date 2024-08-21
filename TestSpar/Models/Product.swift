@@ -30,4 +30,5 @@ let mockProducts: [Product] = [
     Product(name: "Энергетический Напит", imageName: "energy_drink", rating: 4.1, price: 95.90, oldPrice: 199.0, weight: "1л", unit: "л", isDiscounted: false, discountPercentage: nil, additionalInformation: nil, reviewCount: 30, countryOfOrigin: "Россия"),
     Product(name: "Салат Овощной с Крабовыми Палочками", imageName: "salad_crab", rating: 4.1, price: 250.90, oldPrice: 199.0, weight: "500г", unit: "г", isDiscounted: false, discountPercentage: nil, additionalInformation: nil, reviewCount: 75, countryOfOrigin: "Россия"),
     Product(name: "Дорадо Охлажденная Непотрошенная", imageName: "dorada", rating: 4.1, price: 5.92, oldPrice: 7.90, weight: "0.1 кг", unit: "кг", isDiscounted: true, discountPercentage: 25, additionalInformation: "300-400г", reviewCount: 100, countryOfOrigin: "Греция")
+    
 ]
