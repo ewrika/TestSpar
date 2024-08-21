@@ -4,9 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>SF-Pro-Display-Regular</string>
-		<string>SF-Pro-Display-Bold</string>
-		<string>TypeMates - CeraRoundPro-Bold</string>
+		<string>SF-Pro-Display-Regular.otf</string>
+		<string>SF-Pro-Display-Bold.otf</string>
+		<string>TypeMates - CeraRoundPro-Bold.otf</string>
 	</array>
 </dict>
 </plist>

@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct CardProduct: View {
+    let product: Product
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
@@ -9,25 +10,46 @@ struct CardProduct: View {
                     .foregroundColor(.clear)
                     .frame(width: 168, height: 168)
                     .background(
-                        Image("cheese_lamber")
+                        Image(product.imageName)
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 168, height: 168)
                             .clipped())
-                
+
                 // Верхний левый элемент
-                HStack {
-                    Text("Удар по ценам")
-                        .font(.Regular12)
-                        .padding(.leading, 12)
-                        .padding(.trailing, 6)
-                        .padding(.top, 2)
-                        .padding(.bottom, 4)
-                        .background(Color.HitByPrice)
-                        .foregroundColor(.white)
-                        .cornerRadius(6)
-                    
+                if let additionalInformation = product.additionalInformation {
+                    HStack {
+                        Text(additionalInformation)
+                            .font(.Regular12)
+                            .padding(.leading, 12)
+                            .padding(.trailing, 6)
+                            .padding(.top, 2)
+                            .padding(.bottom, 4)
+                            .background(Color.HitByPrice)
+                            .foregroundColor(.white)
+                            .cornerRadius(6)
+                        
+                        Spacer()
+                    }
+                }
+                
+                // Нижний левый элемент (звезда и рейтинг)
+                VStack {
                     Spacer()
+                    HStack {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                            .font(.Regular12)
+                            .frame(width: 16, height: 16)
+                        Text("\(product.rating, specifier: "%.1f")")
+                            .font(.Regular12)
+                            .foregroundColor(.black)
+                        
+                        Spacer()
+                    }
+                    .padding(.leading, 10)
+                    .padding(.trailing, 0)
+                    .padding(.vertical, 0)
                 }
                 
                 // Верхний правый элемент
@@ -68,25 +90,14 @@ struct CardProduct: View {
             }
             
             VStack(alignment: .leading) {
-                //левый нижний элемент
-                HStack() {
-                    
-                    Image(systemName: "star.fill")
-                        .foregroundColor(.yellow)
-                        .font(.Regular12)
-                        .frame(width: 16, height: 16)
-                    Text("4.1")
-                        .font(.Regular12)
-                        .foregroundColor(.black)
-                    
-                    Spacer()
-                    //Правый нижний элемент
-                    Text("25%")
+                //Правый нижний элемент
+                if let discountPercentage = product.discountPercentage {
+                    Text("\(Int(discountPercentage))%")
                         .font(.ProBold16)
                         .foregroundColor(.Sale)
                 }
 
-                Text("сыр Ламбер 500/0 230г")
+                Text(product.name)
                     .font(.Regular12)
                     .foregroundColor(.Price)
                 
@@ -95,16 +106,18 @@ struct CardProduct: View {
                 HStack {
                     VStack(alignment: .leading) {
                         HStack {
-                            Text("99.90")
+                            Text("\(product.price, specifier: "%.2f")")
                                 .font(.ProBold20)
                             Image("PerAmountIcon")
                                 .frame(width: 20, height: 20)
                         }
                         
-                        Text("199,0")
-                            .font(.Regular12)
-                            .foregroundColor(.GrayPrice)
-                            .strikethrough()
+                        if let oldPrice = product.oldPrice {
+                            Text("\(oldPrice, specifier: "%.2f")")
+                                .font(.Regular12)
+                                .foregroundColor(.GrayPrice)
+                                .strikethrough()
+                        }
                     }
                     
                     Spacer()
@@ -135,5 +148,5 @@ struct CardProduct: View {
 }
 
 #Preview {
-    CardProduct()
+    CardProduct(product: mockProducts[0])
 }
