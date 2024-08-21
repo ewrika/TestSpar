@@ -11,6 +11,10 @@
 		E834ECC02C76237E00027799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECBF2C76237E00027799 /* ContentView.swift */; };
 		E834ECC22C76237F00027799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E834ECC12C76237F00027799 /* Assets.xcassets */; };
 		E834ECC52C76237F00027799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E834ECC42C76237F00027799 /* Preview Assets.xcassets */; };
+		E834ECD02C76254400027799 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECCF2C76254400027799 /* Product.swift */; };
+		E834ECD42C762B1800027799 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECD32C762B1800027799 /* Constants.swift */; };
+		E834ECD72C7632B600027799 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */; };
+		E834ECD92C7632CA00027799 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		E834ECBF2C76237E00027799 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E834ECC12C76237F00027799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E834ECC42C76237F00027799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E834ECCF2C76254400027799 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E834ECD32C762B1800027799 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		E834ECDA2C76343C00027799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		E834ECBC2C76237E00027799 /* TestSpar */ = {
 			isa = PBXGroup;
 			children = (
+				E834ECDA2C76343C00027799 /* Info.plist */,
+				E834ECD52C76329F00027799 /* Fonts */,
+				E834ECD22C762AE400027799 /* Extension */,
 				E834ECBD2C76237E00027799 /* TestSparApp.swift */,
 				E834ECBF2C76237E00027799 /* ContentView.swift */,
+				E834ECDB2C7634BA00027799 /* Views */,
+				E834ECD12C7628E200027799 /* Models */,
 				E834ECC12C76237F00027799 /* Assets.xcassets */,
 				E834ECC32C76237F00027799 /* Preview Content */,
 			);
@@ -65,6 +79,38 @@
 				E834ECC42C76237F00027799 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E834ECD12C7628E200027799 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECCF2C76254400027799 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E834ECD22C762AE400027799 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECD32C762B1800027799 /* Constants.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E834ECD52C76329F00027799 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */,
+				E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E834ECDB2C7634BA00027799 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E834ECC52C76237F00027799 /* Preview Assets.xcassets in Resources */,
+				E834ECD72C7632B600027799 /* SF-Pro-Display-Regular.otf in Resources */,
+				E834ECD92C7632CA00027799 /* SF-Pro-Display-Bold.otf in Resources */,
 				E834ECC22C76237F00027799 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +187,8 @@
 			files = (
 				E834ECC02C76237E00027799 /* ContentView.swift in Sources */,
 				E834ECBE2C76237E00027799 /* TestSparApp.swift in Sources */,
+				E834ECD02C76254400027799 /* Product.swift in Sources */,
+				E834ECD42C762B1800027799 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +325,7 @@
 				DEVELOPMENT_TEAM = 36N72Y7M5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestSpar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +355,7 @@
 				DEVELOPMENT_TEAM = 36N72Y7M5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestSpar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
