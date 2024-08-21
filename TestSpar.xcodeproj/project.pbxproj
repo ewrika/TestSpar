@@ -15,6 +15,8 @@
 		E834ECD42C762B1800027799 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECD32C762B1800027799 /* Constants.swift */; };
 		E834ECD72C7632B600027799 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */; };
 		E834ECD92C7632CA00027799 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */; };
+		E834ECDE2C7647C200027799 /* CardProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECDD2C7647C200027799 /* CardProduct.swift */; };
+		E834ECE02C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		E834ECDA2C76343C00027799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E834ECDD2C7647C200027799 /* CardProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProduct.swift; sourceTree = "<group>"; };
+		E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TypeMates - CeraRoundPro-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		E834ECD52C76329F00027799 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */,
 				E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */,
 				E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */,
 			);
@@ -109,8 +114,17 @@
 		E834ECDB2C7634BA00027799 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E834ECDC2C76476000027799 /* CardGrid */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E834ECDC2C76476000027799 /* CardGrid */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECDD2C7647C200027799 /* CardProduct.swift */,
+			);
+			path = CardGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E834ECC52C76237F00027799 /* Preview Assets.xcassets in Resources */,
+				E834ECE02C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf in Resources */,
 				E834ECD72C7632B600027799 /* SF-Pro-Display-Regular.otf in Resources */,
 				E834ECD92C7632CA00027799 /* SF-Pro-Display-Bold.otf in Resources */,
 				E834ECC22C76237F00027799 /* Assets.xcassets in Resources */,
@@ -188,6 +203,7 @@
 				E834ECC02C76237E00027799 /* ContentView.swift in Sources */,
 				E834ECBE2C76237E00027799 /* TestSparApp.swift in Sources */,
 				E834ECD02C76254400027799 /* Product.swift in Sources */,
+				E834ECDE2C7647C200027799 /* CardProduct.swift in Sources */,
 				E834ECD42C762B1800027799 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
