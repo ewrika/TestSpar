@@ -16,7 +16,7 @@ extension Color {
     static let GrayPrice: Color = Color(red: 0.15, green: 0.15, blue: 0.15).opacity(0.6)
     static let Price: Color = Color(red: 0.15, green: 0.15, blue: 0.15).opacity(0.8)
     static let Sale: Color = Color(red: 0.76, green: 0.14, blue: 0.14)
-
+    static let GridListButton: Color = Color(red: 0.95, green: 0.95, blue: 0.95)
 }
 
 extension Font {

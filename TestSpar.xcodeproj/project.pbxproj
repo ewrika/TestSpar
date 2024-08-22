@@ -28,6 +28,7 @@
 		E834ED0C2C776BF800027799 /* CardProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED0B2C776BF800027799 /* CardProductList.swift */; };
 		E834ED0E2C77715500027799 /* DiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED0D2C77715500027799 /* DiscountView.swift */; };
 		E834ED102C777A0300027799 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED0F2C777A0300027799 /* ListView.swift */; };
+		E834ED142C77B34700027799 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED132C77B34700027799 /* TopBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		E834ED0B2C776BF800027799 /* CardProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductList.swift; sourceTree = "<group>"; };
 		E834ED0D2C77715500027799 /* DiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountView.swift; sourceTree = "<group>"; };
 		E834ED0F2C777A0300027799 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E834ED132C77B34700027799 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				E834ED062C7760F500027799 /* ProductPicker.swift */,
 				E834ED082C77629800027799 /* ProductCustomButton.swift */,
 				E834ED0D2C77715500027799 /* DiscountView.swift */,
+				E834ED132C77B34700027799 /* TopBarView.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E834ED102C777A0300027799 /* ListView.swift in Sources */,
+				E834ED142C77B34700027799 /* TopBarView.swift in Sources */,
 				E834ECFF2C77570D00027799 /* ProductImageView.swift in Sources */,
 				E834ED052C7757B600027799 /* sideOverlayControls.swift in Sources */,
 				E834ECC02C76237E00027799 /* ContentView.swift in Sources */,
