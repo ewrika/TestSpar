@@ -11,7 +11,7 @@ struct productInformationView: View {
     let product: Product
 
     var body: some View {
-        Group {
+        VStack {
             if let additionalInformation = product.additionalInformation {
                 HStack {
                     Text(additionalInformation)
@@ -22,8 +22,9 @@ struct productInformationView: View {
                         .cornerRadius(6)
                     Spacer()
                 }
-                .padding(.leading, 12)
+                .padding(.leading, 5)
             }
+            Spacer()
         }
     }
 }

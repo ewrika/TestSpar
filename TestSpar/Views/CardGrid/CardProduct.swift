@@ -3,13 +3,20 @@ import SwiftUI
 struct CardProduct: View {
     let product: Product
     @State private var ChoosenPiece = "Кг"
-    
-    
-
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            ProductImageView(product: product)
+            ZStack{
+                
+                ProductImageView(product: product)
+                productInformationView(product: product)
+                HStack{
+                    ratingView(product: product)
+                    Spacer()
+                    DiscountView(product: product)
+                }
+                sideOverlayControls()
 
+            }
             
             VStack(alignment: .leading, spacing: 4) {
                 Text(product.name)

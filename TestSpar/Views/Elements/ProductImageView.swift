@@ -20,9 +20,6 @@ struct ProductImageView: View {
                         .aspectRatio(contentMode: .fill)
                         .clipped()
                 )
-            productInformationView(product: product)
-            ratingAndDiscountView(product: product)
-            sideOverlayControls()
         }
     }
 }
