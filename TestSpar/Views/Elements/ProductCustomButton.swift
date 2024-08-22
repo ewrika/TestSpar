@@ -72,14 +72,20 @@ struct ProductCustomButton: View {
                     Spacer()
                     
                     ZStack {
-                        RoundedRectangle(cornerRadius: 15)
-                            .fill(Color.green)
-                            .frame(width: 48, alignment: .center)
-                            .frame(height: 36, alignment: .center)
-                            .cornerRadius(40)
-                        
-                        Image("Cart")
-                            .frame(width: 16, height: 16)
+                        Button(action: {
+                                //
+                        }) {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 15)
+                                    .fill(Color.green)
+                                    .frame(width: 48, alignment: .center)
+                                    .frame(height: 36, alignment: .center)
+                                    .cornerRadius(40)
+                                
+                                Image("Cart")
+                                    .frame(width: 16, height: 16)
+                            }
+                        }              
                     }
                 }
             }
