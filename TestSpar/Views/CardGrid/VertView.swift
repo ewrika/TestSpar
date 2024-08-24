@@ -16,6 +16,7 @@ struct VertView: View {
     
     var body: some View {
         ScrollView(showsIndicators: false){
+            
             LazyVGrid(columns:columns,spacing: 20){
                 ForEach(mockProducts){ product in
                     VStack{
@@ -23,9 +24,11 @@ struct VertView: View {
                     }
                 }
             }.padding(.horizontal,20)
+
         }
     }
 }
+
 
 #Preview {
     VertView()

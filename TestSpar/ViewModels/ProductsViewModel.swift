@@ -8,6 +8,8 @@
 import Foundation
 import SwiftUI
 
+
+
 func informationColor(info: String) -> Color {
     switch info {
     case "Удар по ценам":
@@ -20,3 +22,7 @@ func informationColor(info: String) -> Color {
         return Color.gray 
     }
 }
+
+
+
+
