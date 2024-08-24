@@ -15,6 +15,20 @@
 		E834ECD42C762B1800027799 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECD32C762B1800027799 /* Constants.swift */; };
 		E834ECD72C7632B600027799 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */; };
 		E834ECD92C7632CA00027799 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */; };
+		E834ECDE2C7647C200027799 /* CardProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECDD2C7647C200027799 /* CardProduct.swift */; };
+		E834ECE02C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */; };
+		E834ECE62C766ECF00027799 /* VertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECE52C766ECF00027799 /* VertView.swift */; };
+		E834ECEA2C766F5800027799 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECE92C766F5800027799 /* ProductsViewModel.swift */; };
+		E834ECFF2C77570D00027799 /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ECFE2C77570D00027799 /* ProductImageView.swift */; };
+		E834ED012C77574100027799 /* productInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED002C77574100027799 /* productInformationView.swift */; };
+		E834ED032C77578500027799 /* ratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED022C77578500027799 /* ratingView.swift */; };
+		E834ED052C7757B600027799 /* sideOverlayControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED042C7757B600027799 /* sideOverlayControls.swift */; };
+		E834ED072C7760F500027799 /* ProductPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED062C7760F500027799 /* ProductPicker.swift */; };
+		E834ED092C77629800027799 /* ProductCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED082C77629800027799 /* ProductCustomButton.swift */; };
+		E834ED0C2C776BF800027799 /* CardProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED0B2C776BF800027799 /* CardProductList.swift */; };
+		E834ED0E2C77715500027799 /* DiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED0D2C77715500027799 /* DiscountView.swift */; };
+		E834ED102C777A0300027799 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED0F2C777A0300027799 /* ListView.swift */; };
+		E834ED142C77B34700027799 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED132C77B34700027799 /* TopBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +42,20 @@
 		E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		E834ECDA2C76343C00027799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E834ECDD2C7647C200027799 /* CardProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProduct.swift; sourceTree = "<group>"; };
+		E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TypeMates - CeraRoundPro-Bold.otf"; sourceTree = "<group>"; };
+		E834ECE52C766ECF00027799 /* VertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertView.swift; sourceTree = "<group>"; };
+		E834ECE92C766F5800027799 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		E834ECFE2C77570D00027799 /* ProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
+		E834ED002C77574100027799 /* productInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productInformationView.swift; sourceTree = "<group>"; };
+		E834ED022C77578500027799 /* ratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratingView.swift; sourceTree = "<group>"; };
+		E834ED042C7757B600027799 /* sideOverlayControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideOverlayControls.swift; sourceTree = "<group>"; };
+		E834ED062C7760F500027799 /* ProductPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPicker.swift; sourceTree = "<group>"; };
+		E834ED082C77629800027799 /* ProductCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCustomButton.swift; sourceTree = "<group>"; };
+		E834ED0B2C776BF800027799 /* CardProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductList.swift; sourceTree = "<group>"; };
+		E834ED0D2C77715500027799 /* DiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountView.swift; sourceTree = "<group>"; };
+		E834ED0F2C777A0300027799 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E834ED132C77B34700027799 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,7 @@
 		E834ECBC2C76237E00027799 /* TestSpar */ = {
 			isa = PBXGroup;
 			children = (
+				E834ECE82C766F3100027799 /* ViewModels */,
 				E834ECDA2C76343C00027799 /* Info.plist */,
 				E834ECD52C76329F00027799 /* Fonts */,
 				E834ECD22C762AE400027799 /* Extension */,
@@ -100,6 +129,7 @@
 		E834ECD52C76329F00027799 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E834ECDF2C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf */,
 				E834ECD62C7632B600027799 /* SF-Pro-Display-Regular.otf */,
 				E834ECD82C7632CA00027799 /* SF-Pro-Display-Bold.otf */,
 			);
@@ -109,8 +139,52 @@
 		E834ECDB2C7634BA00027799 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E834ED0A2C776BD400027799 /* CardList */,
+				E834ECFD2C7756FD00027799 /* Elements */,
+				E834ECDC2C76476000027799 /* CardGrid */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E834ECDC2C76476000027799 /* CardGrid */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECDD2C7647C200027799 /* CardProduct.swift */,
+				E834ECE52C766ECF00027799 /* VertView.swift */,
+			);
+			path = CardGrid;
+			sourceTree = "<group>";
+		};
+		E834ECE82C766F3100027799 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECE92C766F5800027799 /* ProductsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E834ECFD2C7756FD00027799 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E834ECFE2C77570D00027799 /* ProductImageView.swift */,
+				E834ED002C77574100027799 /* productInformationView.swift */,
+				E834ED022C77578500027799 /* ratingView.swift */,
+				E834ED042C7757B600027799 /* sideOverlayControls.swift */,
+				E834ED062C7760F500027799 /* ProductPicker.swift */,
+				E834ED082C77629800027799 /* ProductCustomButton.swift */,
+				E834ED0D2C77715500027799 /* DiscountView.swift */,
+				E834ED132C77B34700027799 /* TopBarView.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		E834ED0A2C776BD400027799 /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				E834ED0B2C776BF800027799 /* CardProductList.swift */,
+				E834ED0F2C777A0300027799 /* ListView.swift */,
+			);
+			path = CardList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E834ECC52C76237F00027799 /* Preview Assets.xcassets in Resources */,
+				E834ECE02C764DDB00027799 /* TypeMates - CeraRoundPro-Bold.otf in Resources */,
 				E834ECD72C7632B600027799 /* SF-Pro-Display-Regular.otf in Resources */,
 				E834ECD92C7632CA00027799 /* SF-Pro-Display-Bold.otf in Resources */,
 				E834ECC22C76237F00027799 /* Assets.xcassets in Resources */,
@@ -185,10 +260,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E834ED102C777A0300027799 /* ListView.swift in Sources */,
+				E834ED142C77B34700027799 /* TopBarView.swift in Sources */,
+				E834ECFF2C77570D00027799 /* ProductImageView.swift in Sources */,
+				E834ED052C7757B600027799 /* sideOverlayControls.swift in Sources */,
 				E834ECC02C76237E00027799 /* ContentView.swift in Sources */,
 				E834ECBE2C76237E00027799 /* TestSparApp.swift in Sources */,
+				E834ECEA2C766F5800027799 /* ProductsViewModel.swift in Sources */,
+				E834ED032C77578500027799 /* ratingView.swift in Sources */,
 				E834ECD02C76254400027799 /* Product.swift in Sources */,
+				E834ED072C7760F500027799 /* ProductPicker.swift in Sources */,
+				E834ED0E2C77715500027799 /* DiscountView.swift in Sources */,
+				E834ED012C77574100027799 /* productInformationView.swift in Sources */,
+				E834ED0C2C776BF800027799 /* CardProductList.swift in Sources */,
+				E834ECDE2C7647C200027799 /* CardProduct.swift in Sources */,
+				E834ED092C77629800027799 /* ProductCustomButton.swift in Sources */,
 				E834ECD42C762B1800027799 /* Constants.swift in Sources */,
+				E834ECE62C766ECF00027799 /* VertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
